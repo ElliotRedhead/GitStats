@@ -17,7 +17,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "dev-server": "json-server -p 8080 --watch db.json & react-scripts start"
+        "dev-server": "json-server -p 8080 --watch db.json",
+        "dev-start": "json-server -p 8080 --watch db.json & react-scripts start"
     },
     "eslintConfig": {
         "extends": "react-app"

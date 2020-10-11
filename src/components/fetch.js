@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React, {useState} from "react";
 
 const Test = () => {
@@ -6,31 +5,45 @@ const Test = () => {
   const [fetchData, setFetchData] = useState();
 
   if (fetchData){
-    var commitsDisplay = fetchData.map((data, index) => <li key={index}>{data}</li>);
+    // var commitsDisplay = fetchData.forEach((data, index) => <li key={index}>{data}</li>);
+    var commitsDisplay = <p>{JSON.stringify(fetchData)}</p>;
     console.log(commitsDisplay);
   }
-  // const [inputText, setInputText] = useState("https://api.github.com/repos/ElliotRedhead/ReactPortfolio/commits?sha=master");
-  const [inputText, setInputText] = useState("http://localhost:8080/commits");
+  const [externalInputText, setExternalInputText] = useState("https://api.github.com/repos/ElliotRedhead/ReactPortfolio/commits?sha=master&per_page=100");
+  const [internalInputText, setInternalInputText] = useState("http://localhost:8081/commitdetail");
+  // const [inputText, setInputText] = useState("http://localhost:8080/commits");
 
   const externalFetch = () => {
   
-    fetch(inputText)
+    fetch(externalInputText)
       .then(response => response.json())
       .then(
         (results) => {
           console.log(results);
-          let commitMessage = [];
-          results.map((data) => {
+          let commitDetails = {};
+          results.forEach((data, index) => {
+            console.log(data.commit);
             // data.commit.message
-            commitMessage.push(data.commit.message);
+            commitDetails[index]={[data.commit.message] : data.commit};
           });
-          setFetchData(commitMessage);
+          setFetchData(commitDetails);
+        }
+      );
+  };
+
+  const internalFetch = () => {
+  
+    fetch(internalInputText)
+      .then(response => response.json())
+      .then(
+        (results) => {
+          console.log(results);
         }
       );
   };
     
   const writeData = () => {
-    fetch("http://localhost:8080/commits", {
+    fetch("http://localhost:8080/commitdetail", {
       "body": JSON.stringify(fetchData),
       "headers": {
         "Accept": "application/json",
@@ -49,11 +62,16 @@ const Test = () => {
     <>
       <input
         type="text"
-        value={inputText}
-        onChange={event => setInputText(event.target.value)}
-      >
-      </input>
-      <button onClick={externalFetch}>Fetch</button>
+        value={externalInputText}
+        onChange={event => setExternalInputText(event.target.value)}
+      />
+      <button onClick={externalFetch}>External Fetch</button>
+      <input
+        type="text"
+        value={internalInputText}
+        onChange={event => setInternalInputText(event.target.value)}
+      />
+      <button onClick={internalFetch}>Internal Fetch</button>
       <button onClick={writeData}>Write Data</button>
       {/* <div>{JSON.stringify(fetchData)}</div> */}
       <div>

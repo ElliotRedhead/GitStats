@@ -4445,5 +4445,2707 @@
                 }
             ]
         }
-    ]
+    ],
+    "commitdetail": {
+        "0": {
+            "Added previous javascript proficiency project.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-09T23:31:37Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-09T23:31:37Z"
+                },
+                "message": "Added previous javascript proficiency project.",
+                "tree": {
+                    "sha": "39d4780dfefcaef886b58e3129daf95648d8cbe0",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/39d4780dfefcaef886b58e3129daf95648d8cbe0"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4763742bd53530916f92efe164909aafe50f6624",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "1": {
+            "Added an older project to showcase list.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-08T21:07:23Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-08T21:07:23Z"
+                },
+                "message": "Added an older project to showcase list.",
+                "tree": {
+                    "sha": "bdcc7a07b5323e0c7d0586006a0cdaf9a0e707b2",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/bdcc7a07b5323e0c7d0586006a0cdaf9a0e707b2"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/68c76a177c3ca8c0a94c13fa40a8a846e23e4027",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "2": {
+            "Added custom favicon.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:56:19Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:56:19Z"
+                },
+                "message": "Added custom favicon.",
+                "tree": {
+                    "sha": "6a6951daa895290eb9699d46d9cb76134db31f2b",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6a6951daa895290eb9699d46d9cb76134db31f2b"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4c44ac7614b46a750a3fc63a5868754b6a4d92f1",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "3": {
+            "Styled buttons.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:52:45Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:52:45Z"
+                },
+                "message": "Styled buttons.",
+                "tree": {
+                    "sha": "9a2677f89985e4fba272dfe00c2c1a36898ac837",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/9a2677f89985e4fba272dfe00c2c1a36898ac837"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/8f9842ce4fa72c4f44bddf1973b382bc5ac33080",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "4": {
+            "Added certificate visibility.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:09:39Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-06T21:09:39Z"
+                },
+                "message": "Added certificate visibility.",
+                "tree": {
+                    "sha": "edbe97290ab3edadc7a4121d10a3b9a5b642fa0b",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/edbe97290ab3edadc7a4121d10a3b9a5b642fa0b"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4656bea712920774c1ad03e900884a11795e31dd",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "5": {
+            "Altered SASS filename, and import paths.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T22:36:24Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T22:36:24Z"
+                },
+                "message": "Altered SASS filename, and import paths.",
+                "tree": {
+                    "sha": "683e632a245dabb451b71c03e51964705e46891c",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/683e632a245dabb451b71c03e51964705e46891c"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/a973af036c13b3efa9b3699b4a80b1e26425f274",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "6": {
+            "Shared font using SASS variable.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T22:31:49Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T22:31:49Z"
+                },
+                "message": "Shared font using SASS variable.",
+                "tree": {
+                    "sha": "d39c9ab472956e880a7f36589a772fc5b01f91de",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/d39c9ab472956e880a7f36589a772fc5b01f91de"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/bc3e95f0de1414b27fecee51264ab5c49995fa73",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "7": {
+            "Display certificatedata with links to AWS S3 pdfs.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T20:41:49Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-05T20:41:49Z"
+                },
+                "message": "Display certificatedata with links to AWS S3 pdfs.",
+                "tree": {
+                    "sha": "55beff75ad8802b3ce00ec2a6b861ca64fda4a2f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/55beff75ad8802b3ce00ec2a6b861ca64fda4a2f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/0e6dbd1490bdf8794a81f4801dcd1d0127c1022b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "8": {
+            "Added certificates data display section.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T22:21:18Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T22:21:18Z"
+                },
+                "message": "Added certificates data display section.",
+                "tree": {
+                    "sha": "37fc5cb4ab76bb3e04dd892c894c313c6855b41e",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/37fc5cb4ab76bb3e04dd892c894c313c6855b41e"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/eeea21650727f7e60f92642947128b03d5a952af",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "9": {
+            "Merge branch 'master' into feature/certificates-section": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T21:45:50Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T21:45:50Z"
+                },
+                "message": "Merge branch 'master' into feature/certificates-section",
+                "tree": {
+                    "sha": "f4c388ea2b94a4a4e2605586411c52cc8cf61a83",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/f4c388ea2b94a4a4e2605586411c52cc8cf61a83"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/40bc88587b42ede0b41c0a823bee96d0971346bc",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "10": {
+            "Added contact email.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T21:44:56Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T21:44:56Z"
+                },
+                "message": "Added contact email.",
+                "tree": {
+                    "sha": "4442dc405fad4491501ca9fff0306facf3b51125",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/4442dc405fad4491501ca9fff0306facf3b51125"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/b7c659548d63d92e7807d541bd24c4d3c52c527f",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "11": {
+            "Styled project link buttons.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T19:36:17Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T19:36:17Z"
+                },
+                "message": "Styled project link buttons.",
+                "tree": {
+                    "sha": "4b8cada5704e1e4f76b1a191a6f4ee0bac6635ab",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/4b8cada5704e1e4f76b1a191a6f4ee0bac6635ab"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ea466dad82dbf938e636a1672980d96eb201f723",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "12": {
+            "Added border radius to jumbron nav button.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T19:35:45Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T19:35:45Z"
+                },
+                "message": "Added border radius to jumbron nav button.",
+                "tree": {
+                    "sha": "00a61aecdf0c6f88ff3bd1090530d9fc2ec9aff4",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/00a61aecdf0c6f88ff3bd1090530d9fc2ec9aff4"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/7dfb4b12d8a0fdff69b2bc2b45706ff322f1c63b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "13": {
+            "Added bootstrap skill to projects list.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T15:56:14Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T15:56:14Z"
+                },
+                "message": "Added bootstrap skill to projects list.",
+                "tree": {
+                    "sha": "10c25129827b4e0030e6191d444a1a8f782cb1ac",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/10c25129827b4e0030e6191d444a1a8f782cb1ac"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/695ade9484d8b457ed9bfe3c616921352193d0be",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "14": {
+            "Added AWS to skill used for portfolio.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T11:17:54Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T11:17:54Z"
+                },
+                "message": "Added AWS to skill used for portfolio.",
+                "tree": {
+                    "sha": "768cebdfb21e232c355259e7e03a8b20b002e440",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/768cebdfb21e232c355259e7e03a8b20b002e440"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/06708265e0cb3a0eea503b8654393dc6deccb634",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "15": {
+            "Added colour to tech icons.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T11:17:31Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-03T11:17:31Z"
+                },
+                "message": "Added colour to tech icons.",
+                "tree": {
+                    "sha": "94acdbdb38050189455d6f1223f78b77a314f64c",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/94acdbdb38050189455d6f1223f78b77a314f64c"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/c6b33a57df6dbca6c0c74c4220cbc2779c1aea5b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "16": {
+            "Added security changes for external links.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T19:53:20Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T19:53:20Z"
+                },
+                "message": "Added security changes for external links.",
+                "tree": {
+                    "sha": "ec9f8cc60b88e46d2de8600a231b86b2598de2e3",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ec9f8cc60b88e46d2de8600a231b86b2598de2e3"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/3c5d40723997ad355e7b45adcff72fe24a1cf5e8",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "17": {
+            "Added links to github and file download.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T17:21:19Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T17:21:19Z"
+                },
+                "message": "Added links to github and file download.",
+                "tree": {
+                    "sha": "0029bca1740fbea3f509f073821da6dc28bab013",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/0029bca1740fbea3f509f073821da6dc28bab013"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/9c5d94684e809d6e9dacdaa2e9c992f7eb6a64d9",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "18": {
+            "Removed border radius.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T16:47:20Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T16:47:20Z"
+                },
+                "message": "Removed border radius.",
+                "tree": {
+                    "sha": "6a35837ede0a987fb299669017136f6a648f8f46",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6a35837ede0a987fb299669017136f6a648f8f46"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/6fc92f7586bdf83b7780dcf064a50a15de7a01f6",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "19": {
+            "Banner links styling & icon choice.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T16:45:55Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-02T16:45:55Z"
+                },
+                "message": "Banner links styling & icon choice.",
+                "tree": {
+                    "sha": "cccf97193a4eeab0ece0f22bab38e176d23bfd1f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/cccf97193a4eeab0ece0f22bab38e176d23bfd1f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/96bf32e82df9ca1b1e4f4d36f607426505298128",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "20": {
+            "Started building links banner.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-01T19:33:58Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-01T19:33:58Z"
+                },
+                "message": "Started building links banner.",
+                "tree": {
+                    "sha": "f3008945757d2a399d58b605c45fff11de89f42f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/f3008945757d2a399d58b605c45fff11de89f42f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/102d68941b5cb775d9469876b9a683cb60bcc660",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "21": {
+            "Added link icons.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-01T18:02:22Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-10-01T18:02:22Z"
+                },
+                "message": "Added link icons.",
+                "tree": {
+                    "sha": "0a25bf4cb3b1bcbe74328e1c8d9f1db98cb29c5e",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/0a25bf4cb3b1bcbe74328e1c8d9f1db98cb29c5e"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/0028a2b3f49daa60bb2a0933bbcccd6dc3060a9b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "22": {
+            "Prevented projects button flickering on load.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-30T19:33:44Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-30T19:33:44Z"
+                },
+                "message": "Prevented projects button flickering on load.",
+                "tree": {
+                    "sha": "e89663d4853847f50b61f1b5c337f35a996f2b69",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/e89663d4853847f50b61f1b5c337f35a996f2b69"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/904a1a692322a7a8e89ae348114021dbddfb10a5",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "23": {
+            "Removed under construction page.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-29T19:42:24Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-29T19:42:24Z"
+                },
+                "message": "Removed under construction page.",
+                "tree": {
+                    "sha": "27ffb7af2b187287f36419891ae58d0273ffaade",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/27ffb7af2b187287f36419891ae58d0273ffaade"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/9bf23c6c83af6f0a2501cc17f098b2c600aee29f",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "24": {
+            "Added tooltips to technology icons.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T22:19:25Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T22:19:25Z"
+                },
+                "message": "Added tooltips to technology icons.",
+                "tree": {
+                    "sha": "ee5cb09d99ee8ef06580308ac20e3d1d7b4a95b2",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ee5cb09d99ee8ef06580308ac20e3d1d7b4a95b2"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/314d875b8276d92af5b0904030b2c87cd746ed7b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "25": {
+            "Removed redundant package use.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T21:45:13Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T21:45:13Z"
+                },
+                "message": "Removed redundant package use.",
+                "tree": {
+                    "sha": "c6354d9504abda34e60350a021421608242d5a51",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/c6354d9504abda34e60350a021421608242d5a51"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/a5d72cf3e77c9cf54e74a00d33dd43e535b814b6",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "26": {
+            "Removed third-party package, replaced logic.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T18:36:17Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T18:36:17Z"
+                },
+                "message": "Removed third-party package, replaced logic.",
+                "tree": {
+                    "sha": "a2bfae6c24d3cffb22585022f86b762133f556a8",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/a2bfae6c24d3cffb22585022f86b762133f556a8"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/9b469c33e6deffe5acb28a79e781fd9283572faf",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "27": {
+            "Corrected 100vh scrolling on mobile.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T17:50:36Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T17:50:36Z"
+                },
+                "message": "Corrected 100vh scrolling on mobile.",
+                "tree": {
+                    "sha": "f5801aa8d57c3c863c1d3b85179600db92a42213",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/f5801aa8d57c3c863c1d3b85179600db92a42213"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/bba9cf6ab9c1022275d1496b120513e053fdd10e",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "28": {
+            "Access of project on local network mobile testing.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T15:41:25Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T15:41:25Z"
+                },
+                "message": "Access of project on local network mobile testing.",
+                "tree": {
+                    "sha": "d8b01f75f2110e52c4733b9825c9731d67dfa89f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/d8b01f75f2110e52c4733b9825c9731d67dfa89f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/208ad422842251732b3bb05bb118db2716a8a9a0",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "29": {
+            "Scroll height fix using third-party resource.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T14:05:40Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T14:05:40Z"
+                },
+                "message": "Scroll height fix using third-party resource.",
+                "tree": {
+                    "sha": "8e4a5605d04adac622a28d43a83d21067943de53",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/8e4a5605d04adac622a28d43a83d21067943de53"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/e1f6e8776f1efd926699b30732b41656e7725ff2",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "30": {
+            "Trialling 100vh package for mobile compatibility.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T13:51:05Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-26T13:51:05Z"
+                },
+                "message": "Trialling 100vh package for mobile compatibility.",
+                "tree": {
+                    "sha": "f6492f10d3d992945a15fea07e4235b6b01a40bc",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/f6492f10d3d992945a15fea07e4235b6b01a40bc"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ca8da49c239fa9045dd2bd735cf86467516f595b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "31": {
+            "Project list styling changes.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T22:06:18Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T22:06:18Z"
+                },
+                "message": "Project list styling changes.",
+                "tree": {
+                    "sha": "9bdc9ce32934c5ab3670b4c72cc095b0ea6329fe",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/9bdc9ce32934c5ab3670b4c72cc095b0ea6329fe"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/d7bb917651f7a7de04c49ae41d24f62623d8fac3",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "32": {
+            "Layout changes made to jumbotron.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T21:26:17Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T21:26:17Z"
+                },
+                "message": "Layout changes made to jumbotron.",
+                "tree": {
+                    "sha": "af88557337b04e56209089a60bbe753cb06f3303",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/af88557337b04e56209089a60bbe753cb06f3303"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/473871a5b58ace61244f8ddd1e323eec27db1f33",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "33": {
+            "Project list font and text alignment.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T07:01:38Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-24T07:01:38Z"
+                },
+                "message": "Project list font and text alignment.",
+                "tree": {
+                    "sha": "8b17ccdf55c494a81aef0ea9093ad9b95fae8c94",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/8b17ccdf55c494a81aef0ea9093ad9b95fae8c94"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/1757fc2ee417aa909e92aea491f7b27a0ab7c8ba",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "34": {
+            "Draft layout of projects implemented.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-23T20:39:22Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-23T20:39:22Z"
+                },
+                "message": "Draft layout of projects implemented.",
+                "tree": {
+                    "sha": "28adaeaaa10d7adef40869692a5434fa861fdac8",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/28adaeaaa10d7adef40869692a5434fa861fdac8"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/7031851d56ff02fd83e1c7c3e4d8dace4e3c0536",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "35": {
+            "Rendering changes to project details.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T21:38:25Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T21:38:25Z"
+                },
+                "message": "Rendering changes to project details.",
+                "tree": {
+                    "sha": "ac3b8f23732afc0fb6fdddab25f983fa2ef2e09f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ac3b8f23732afc0fb6fdddab25f983fa2ef2e09f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/e5441e9bdc672b9130208ed504868f9761846726",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "36": {
+            "Technology icons spacing.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T19:12:04Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T19:12:04Z"
+                },
+                "message": "Technology icons spacing.",
+                "tree": {
+                    "sha": "b5d7b004be50f765c7c1523c7c3404b72bc991dc",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/b5d7b004be50f765c7c1523c7c3404b72bc991dc"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/19ebba5b7b85a3195b653f04e21fb171bcefe91a",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "37": {
+            "Shortened time before button becomes visible.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T19:00:59Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-22T19:00:59Z"
+                },
+                "message": "Shortened time before button becomes visible.",
+                "tree": {
+                    "sha": "a09c44565b6af47ea26a87db5b5cd785c3472f05",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/a09c44565b6af47ea26a87db5b5cd785c3472f05"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/080ce47ca9dafa6d109187e251ac57a9f5c1b8fe",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "38": {
+            "Rendered technology logos.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-21T18:08:32Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-21T18:08:32Z"
+                },
+                "message": "Rendered technology logos.",
+                "tree": {
+                    "sha": "b2dfe0c928269fd72c85a8906959da77f73e5cc7",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/b2dfe0c928269fd72c85a8906959da77f73e5cc7"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/90e4c3d2561745b9f70ec2cd21f7dceb224cbdb9",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "39": {
+            "Layout of tech icons.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:48:51Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:48:51Z"
+                },
+                "message": "Layout of tech icons.",
+                "tree": {
+                    "sha": "9f0bc6376bba68935312abb139f2de0f44a3d201",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/9f0bc6376bba68935312abb139f2de0f44a3d201"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/18a57189bdd73d8776929bea9097bb9ea8ed9e25",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "40": {
+            "Iteration to display tech icons.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:28:25Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:28:25Z"
+                },
+                "message": "Iteration to display tech icons.",
+                "tree": {
+                    "sha": "f23788969087a3512acf9f350ad1fa82c1d8c4b6",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/f23788969087a3512acf9f350ad1fa82c1d8c4b6"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/626fa85b09fb733066238d3919441493ed79e618",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "41": {
+            "Updated eslint version.": {
+                "author": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:21:02Z"
+                },
+                "committer": {
+                    "name": "elliot.redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-20T22:21:02Z"
+                },
+                "message": "Updated eslint version.",
+                "tree": {
+                    "sha": "d839a0c82fd2fc8416da76a32b8e49549aef995e",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/d839a0c82fd2fc8416da76a32b8e49549aef995e"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/0d95392f0b8a4c352d097084d177a6c0cf3a9ed9",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "42": {
+            "Added examples of hooks utilisation.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-14T21:48:48Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-14T21:48:48Z"
+                },
+                "message": "Added examples of hooks utilisation.",
+                "tree": {
+                    "sha": "9c07e111177f50b0cb2c44907f4910ed471b8721",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/9c07e111177f50b0cb2c44907f4910ed471b8721"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/fe8ac7637313bac6aeb706613a71487a1602f39c",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "43": {
+            "Displayed projects in responsive containers.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T23:11:19Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T23:11:19Z"
+                },
+                "message": "Displayed projects in responsive containers.",
+                "tree": {
+                    "sha": "c9ea7b68d82395e3e1484a1cf204dcebbf275e28",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/c9ea7b68d82395e3e1484a1cf204dcebbf275e28"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/51233e2fa90ccdc3675600b40ec2fbfb35be53d7",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "44": {
+            "Attempt to fix fade in on production build.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T01:05:26Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T01:05:26Z"
+                },
+                "message": "Attempt to fix fade in on production build.",
+                "tree": {
+                    "sha": "353876a86686d4ff682d31ab1e8429a208281eba",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/353876a86686d4ff682d31ab1e8429a208281eba"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/233883eeb44282148736da296bc49d96680d443c",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "45": {
+            "Rendered project data as JSX.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T00:54:29Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T00:54:29Z"
+                },
+                "message": "Rendered project data as JSX.",
+                "tree": {
+                    "sha": "b7eefaf3ec5e56bc9ab0be277b4cf083010b7d5d",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/b7eefaf3ec5e56bc9ab0be277b4cf083010b7d5d"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4224c261e15969a89a72e512f2772d40c34871c0",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "46": {
+            "Renamed file to ProjectData.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T00:53:55Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-12T00:53:55Z"
+                },
+                "message": "Renamed file to ProjectData.",
+                "tree": {
+                    "sha": "7d911b679347424ccad6cd3ce43ed60c6c91afb2",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/7d911b679347424ccad6cd3ce43ed60c6c91afb2"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ce0465f8fe203cffc4f51e854558585cafa5e6fc",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "47": {
+            "Removed unused import.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-10T21:49:15Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-10T21:49:15Z"
+                },
+                "message": "Removed unused import.",
+                "tree": {
+                    "sha": "7f05e7bf554e5f83cc87263823dad868d84d69fe",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/7f05e7bf554e5f83cc87263823dad868d84d69fe"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/9c9b635ac55ed89abdbbf69c4dadf3dfc84fe376",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "48": {
+            "Added slight delay before scrolling to projects.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-10T21:39:10Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-10T21:39:10Z"
+                },
+                "message": "Added slight delay before scrolling to projects.",
+                "tree": {
+                    "sha": "ae70f60912004cadf14a16e9089108f0014b03ed",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ae70f60912004cadf14a16e9089108f0014b03ed"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/229ef36ec4d02a0158ed388ffc9f58b5f3e3ab90",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "49": {
+            "Scroll to projects section with context change.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-09T21:26:09Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-09T21:26:09Z"
+                },
+                "message": "Scroll to projects section with context change.",
+                "tree": {
+                    "sha": "a564d4d5cbb01f7334c3ef60f2c889cbd1666db1",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/a564d4d5cbb01f7334c3ef60f2c889cbd1666db1"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/77568137da6a79190fb1d5fb2cf9ec0b6734eb8e",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "50": {
+            "Passed project list visibility state via context.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-09T21:00:01Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-09T21:00:01Z"
+                },
+                "message": "Passed project list visibility state via context.",
+                "tree": {
+                    "sha": "b6b57febf318f71e8dae4cf05be6b5d2e706370a",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/b6b57febf318f71e8dae4cf05be6b5d2e706370a"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/a532e77e7c0a4aed403887e127433184ddfd821a",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "51": {
+            "Corrected error, ref not part of div.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-07T20:48:59Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-07T20:48:59Z"
+                },
+                "message": "Corrected error, ref not part of div.",
+                "tree": {
+                    "sha": "900be1e7e913db5f5a5747ccc23415846067d552",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/900be1e7e913db5f5a5747ccc23415846067d552"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/56c5c8d678f8f0b0ce05d8bf73452acc3fe25cd0",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "52": {
+            "useRef used in parent component (homepage).": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-06T11:03:40Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-06T11:03:40Z"
+                },
+                "message": "useRef used in parent component (homepage).",
+                "tree": {
+                    "sha": "375a7620bf829936c7ca08168cca003f3789f45a",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/375a7620bf829936c7ca08168cca003f3789f45a"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/88ddf7b6fc18cf5f704ec6d2fc61455887a35343",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "53": {
+            "Setup for scroll to project list.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-06T01:05:39Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-06T01:05:39Z"
+                },
+                "message": "Setup for scroll to project list.",
+                "tree": {
+                    "sha": "70fd4f9c4d36c91bd099ecabf492abdbb960b8a5",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/70fd4f9c4d36c91bd099ecabf492abdbb960b8a5"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4cc6801048a9e52a6734c4c6307af68879c10b35",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "54": {
+            "Called onClick function with Project button.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T21:04:18Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T21:04:18Z"
+                },
+                "message": "Called onClick function with Project button.",
+                "tree": {
+                    "sha": "dbc209eb1184d12ad0f1b980fca72cda7c5e0bd5",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/dbc209eb1184d12ad0f1b980fca72cda7c5e0bd5"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/1c30439d050c803aaf4e1f99300a68954bf8e2cc",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "55": {
+            "Added animate.css as a dependency.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T18:57:34Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T18:57:34Z"
+                },
+                "message": "Added animate.css as a dependency.",
+                "tree": {
+                    "sha": "6e62222bd3b0bcca8f9e73a9837a8558d6e8186f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6e62222bd3b0bcca8f9e73a9837a8558d6e8186f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/0626cc01f0938e67afba21223c6dbab56263b123",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "56": {
+            "Refined animation steps.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T18:57:20Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T18:57:20Z"
+                },
+                "message": "Refined animation steps.",
+                "tree": {
+                    "sha": "253982eedf52f2bcf0c377bc44581a9069a0bec2",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/253982eedf52f2bcf0c377bc44581a9069a0bec2"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/18689e0b6f7e7636a1a748c03e26b6fbfd561674",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "57": {
+            "Added responsive breakpoints for font size.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T17:55:28Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T17:55:28Z"
+                },
+                "message": "Added responsive breakpoints for font size.",
+                "tree": {
+                    "sha": "2f588e0a7737e551b6df71285360b9842a0e58aa",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/2f588e0a7737e551b6df71285360b9842a0e58aa"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/593c891e5a540681c43fb030f0a63efbb1d98647",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "58": {
+            "Added projects button to jumbotron.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T17:55:12Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-05T17:55:12Z"
+                },
+                "message": "Added projects button to jumbotron.",
+                "tree": {
+                    "sha": "050b19c89f7cf7dce574fc677167400be291ebf5",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/050b19c89f7cf7dce574fc677167400be291ebf5"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/edd0e1377f9e00747c6b66b36505f268047bf5e2",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "59": {
+            "Transformed jumbotron container.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-03T21:42:01Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-03T21:42:01Z"
+                },
+                "message": "Transformed jumbotron container.",
+                "tree": {
+                    "sha": "fc87115b80ae1f3482edd44a980df349ecd20b74",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/fc87115b80ae1f3482edd44a980df349ecd20b74"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/5dda4bab04555464588144dfa496e0e0e6762def",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "60": {
+            "Added transform jumbotron animation.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-03T21:31:29Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-09-03T21:31:29Z"
+                },
+                "message": "Added transform jumbotron animation.",
+                "tree": {
+                    "sha": "2078193988883ed7e0e2fe810070f22c94bb46c0",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/2078193988883ed7e0e2fe810070f22c94bb46c0"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/20e51fd1b7719d301e4fe1d797d391d63567b048",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "61": {
+            "Extracted jumbotron component.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T20:29:01Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T20:29:01Z"
+                },
+                "message": "Extracted jumbotron component.",
+                "tree": {
+                    "sha": "8ffdc4fdccf02229b382e7bdde53d6c5395d7cc3",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/8ffdc4fdccf02229b382e7bdde53d6c5395d7cc3"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/7444bd40b1424e7de455b8b4becbd8a7dfe393ab",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "62": {
+            "Added newline to end of file.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T19:21:22Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T19:21:22Z"
+                },
+                "message": "Added newline to end of file.",
+                "tree": {
+                    "sha": "0e1ce03cfc4eca997c0c3edafd722b42114a597c",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/0e1ce03cfc4eca997c0c3edafd722b42114a597c"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/cf5a50ddc5e1909b6bcde9b0988cd8fb1977351d",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "63": {
+            "Altered subheading size and animation duration.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:18:25Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:18:25Z"
+                },
+                "message": "Altered subheading size and animation duration.",
+                "tree": {
+                    "sha": "3d84a5e72c9c2664949ddc1e02ba846a7975253d",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/3d84a5e72c9c2664949ddc1e02ba846a7975253d"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/bccf1bb811e6e92e9c81f30b7b55366b72934251",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "64": {
+            "Made cursor state visible initially.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:18:06Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:18:06Z"
+                },
+                "message": "Made cursor state visible initially.",
+                "tree": {
+                    "sha": "81ebb644672b5ef0bcdd5d9bbbc1b29ca17dffb8",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/81ebb644672b5ef0bcdd5d9bbbc1b29ca17dffb8"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4561b780c4bf2529c4749fd340baeddd41d063fd",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "65": {
+            "Pass continuous integration tests if none yet.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:17:03Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T18:17:03Z"
+                },
+                "message": "Pass continuous integration tests if none yet.",
+                "tree": {
+                    "sha": "7338e5bc3886825b7b61dd164ca27716e66821d1",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/7338e5bc3886825b7b61dd164ca27716e66821d1"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/af8ad08b429a38cfcd79b4404e6d1bd7509a2735",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "66": {
+            "Added subtitle following title animation.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:55:38Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:55:38Z"
+                },
+                "message": "Added subtitle following title animation.",
+                "tree": {
+                    "sha": "ea771609e2e1320c41b0bb055cb18a08b3456cd3",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ea771609e2e1320c41b0bb055cb18a08b3456cd3"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ffd587b7babe2e164d2d7514d09771c2c5d7bf6d",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "67": {
+            "Font sizes, element positions and animation added.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:55:11Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:55:11Z"
+                },
+                "message": "Font sizes, element positions and animation added.",
+                "tree": {
+                    "sha": "af646d34d42c73085c975e0a509484f724721060",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/af646d34d42c73085c975e0a509484f724721060"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/90142ca615aa2a68bf45d2ced24e28ee5bdf0cac",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "68": {
+            "Modified package snippet.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:54:49Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-23T16:54:49Z"
+                },
+                "message": "Modified package snippet.",
+                "tree": {
+                    "sha": "5064b3b5b58d441179c5d4f635a4247344d8d1ed",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/5064b3b5b58d441179c5d4f635a4247344d8d1ed"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/dbadff57f3fe1be61b4ded077cb4c6e77ebf83eb",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "69": {
+            "Added test and coverage capability to CI.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:58:57Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:58:57Z"
+                },
+                "message": "Added test and coverage capability to CI.",
+                "tree": {
+                    "sha": "6593778453a8b3bcd441c3c4fba9c0d7775dacad",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6593778453a8b3bcd441c3c4fba9c0d7775dacad"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/95e57b8d6125bdf073fffc36a8edfe2b978db4f6",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "70": {
+            "Added travis configuration.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:22:12Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:22:12Z"
+                },
+                "message": "Added travis configuration.",
+                "tree": {
+                    "sha": "71dca41624a4b1d68ad7f18cb736b811cd117a5f",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/71dca41624a4b1d68ad7f18cb736b811cd117a5f"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/828c65492fca947923798db183a55d0b05c0212a",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "71": {
+            "Set eslint version, comptabile with CRA.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:16:50Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:16:50Z"
+                },
+                "message": "Set eslint version, comptabile with CRA.",
+                "tree": {
+                    "sha": "65ceef7102ae51f0da9972d07d46a0c974e9cffd",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/65ceef7102ae51f0da9972d07d46a0c974e9cffd"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/5d498aab0c109f65e59dc6393593f35cd5cdf28d",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "72": {
+            "Added portfolio project data, and Travis CI note.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:14:14Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-21T07:14:14Z"
+                },
+                "message": "Added portfolio project data, and Travis CI note.",
+                "tree": {
+                    "sha": "7cec95be6ee46f2f256722209e2e119d5986fc0b",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/7cec95be6ee46f2f256722209e2e119d5986fc0b"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/c45301db35f0a4b370097c5725cb960864fb2557",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "73": {
+            "Centered homepage jumbotron.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-20T22:29:12Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-20T22:29:12Z"
+                },
+                "message": "Centered homepage jumbotron.",
+                "tree": {
+                    "sha": "49f1f004125ea5e2586968b945954b142a5a2543",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/49f1f004125ea5e2586968b945954b142a5a2543"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/3148409c690765fcbd1df6308b3417c9d1b842fe",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "74": {
+            "Added eslint dev dependency.": {
+                "author": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-20T22:28:54Z"
+                },
+                "committer": {
+                    "name": "Elliot Redhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-20T22:28:54Z"
+                },
+                "message": "Added eslint dev dependency.",
+                "tree": {
+                    "sha": "6f98cb36bd7601743c24a80f45f7716960f9e7b8",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6f98cb36bd7601743c24a80f45f7716960f9e7b8"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/6ef4f8c42837548888af32182e9bd8795bc517cf",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "75": {
+            "Altered imports to reflect new file structure.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:17:55Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:17:55Z"
+                },
+                "message": "Altered imports to reflect new file structure.",
+                "tree": {
+                    "sha": "ab619520dcaa7ec17fddc6722fa27a1c2d3ec9b7",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ab619520dcaa7ec17fddc6722fa27a1c2d3ec9b7"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/d1d42b57689e9fbb379079c6c11725c476564ef7",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "76": {
+            "Rearranged project file structure.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:15:47Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:15:47Z"
+                },
+                "message": "Rearranged project file structure.",
+                "tree": {
+                    "sha": "cee9924d8b71a5fd6cd4498c15804dffae7c01cb",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/cee9924d8b71a5fd6cd4498c15804dffae7c01cb"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/464d27f26f4a9bea3bd33893b85b79d38de2ed9b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "77": {
+            "Introduced SASS variable.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:10:01Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-18T22:10:01Z"
+                },
+                "message": "Introduced SASS variable.",
+                "tree": {
+                    "sha": "648f54dab5d1ab2150f6c3f1a19e3863adbf1db4",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/648f54dab5d1ab2150f6c3f1a19e3863adbf1db4"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/3d7c38dd5ccde1579d46ddf0a7b6a02131487010",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "78": {
+            "Converted project preview container to Typescript.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T21:13:43Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T21:13:43Z"
+                },
+                "message": "Converted project preview container to Typescript.",
+                "tree": {
+                    "sha": "a562309ae70357834e0e89cc6aabe651400feb78",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/a562309ae70357834e0e89cc6aabe651400feb78"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/080f5fbc39df56de3ef51581c2769041ca023083",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "79": {
+            "Codebase changes following typescript use.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T20:33:36Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T20:33:36Z"
+                },
+                "message": "Codebase changes following typescript use.",
+                "tree": {
+                    "sha": "66bfa4abbbbaa95a5c1c5347bbecbfbb58d2733a",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/66bfa4abbbbaa95a5c1c5347bbecbfbb58d2733a"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/255f9641bb4b79bfc1e9246f28a3578efb9dedc2",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "80": {
+            "Added typescript requirements.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T20:33:17Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-17T20:33:17Z"
+                },
+                "message": "Added typescript requirements.",
+                "tree": {
+                    "sha": "32a3aa3eb10031fb83f9e6d7726173639861a826",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/32a3aa3eb10031fb83f9e6d7726173639861a826"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/aeeca3d17d7dca2988334f3a67309aaae128db7e",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "81": {
+            "Corrected cursor interval & offset bugs.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T21:44:33Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T21:44:33Z"
+                },
+                "message": "Corrected cursor interval & offset bugs.",
+                "tree": {
+                    "sha": "86f194a7903841bcb2226eb46eb773e8b64de87d",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/86f194a7903841bcb2226eb46eb773e8b64de87d"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ee8d9af09ca32eb2cb6ce01bb4c66861215b38a9",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "82": {
+            "Alternate blinking method, replace whitespace.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T18:13:11Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T18:13:11Z"
+                },
+                "message": "Alternate blinking method, replace whitespace.",
+                "tree": {
+                    "sha": "5dc57bd5dfa916439b107042e25a939ab218eb25",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/5dc57bd5dfa916439b107042e25a939ab218eb25"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/f5a5cd43f94c5134d240a3f3d483001b0cf964b5",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "83": {
+            "Copying files added to build script for 404 error.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T15:16:34Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T15:16:34Z"
+                },
+                "message": "Copying files added to build script for 404 error.",
+                "tree": {
+                    "sha": "ff231b399f0e563fa994da33ae2fa7ca56a496d0",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ff231b399f0e563fa994da33ae2fa7ca56a496d0"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ce3ca616a5116829872ec56000c88e6e16a57733",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "84": {
+            "Homepage string altered.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:35:12Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:35:12Z"
+                },
+                "message": "Homepage string altered.",
+                "tree": {
+                    "sha": "0acb753e88ad11189ac6b85acdf802225788939e",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/0acb753e88ad11189ac6b85acdf802225788939e"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/0df2c70dafc9afe8c6c935e49f9933533a8bf5b9",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "85": {
+            "Live deployment configuration changes.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:27:54Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:27:54Z"
+                },
+                "message": "Live deployment configuration changes.",
+                "tree": {
+                    "sha": "cec0d69a65cfd47bd89c047956a2ff3e5fdaaf07",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/cec0d69a65cfd47bd89c047956a2ff3e5fdaaf07"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/12a87caa474b27bda0327b0249e266eb787afdc3",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "86": {
+            "Added homepage string to package.json.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:14:48Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:14:48Z"
+                },
+                "message": "Added homepage string to package.json.",
+                "tree": {
+                    "sha": "ccc02e9bca4bb8b969f75e7457803eadc99258a9",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/ccc02e9bca4bb8b969f75e7457803eadc99258a9"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/04f59188c620e2c1e8779208619d36058ad1166c",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "87": {
+            "Removed public url concat.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:09:54Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:09:54Z"
+                },
+                "message": "Removed public url concat.",
+                "tree": {
+                    "sha": "38dcf5b4e84c00e7770de922aedbd5c445e1f973",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/38dcf5b4e84c00e7770de922aedbd5c445e1f973"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/ec0f6a5c4b580fd0ece72ae912e32dd73d201e03",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "88": {
+            "Corrected import  for Link. (react-router-dom).": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:05:40Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T14:05:40Z"
+                },
+                "message": "Corrected import  for Link. (react-router-dom).",
+                "tree": {
+                    "sha": "50d6f4ed88307076d969f2a4023c442d6c153c57",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/50d6f4ed88307076d969f2a4023c442d6c153c57"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/912eba0ee46983a3682174c6c0bd0aceaec2428e",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "89": {
+            "Added hidden link to construction page.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:57:49Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:57:49Z"
+                },
+                "message": "Added hidden link to construction page.",
+                "tree": {
+                    "sha": "1f0ba55e3507fae377c10c122357b4324880dd06",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/1f0ba55e3507fae377c10c122357b4324880dd06"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/b65077663d6de011a2aa50700e6edc9b7e91d826",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "90": {
+            "Testing public deployment setting.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:43:32Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:43:32Z"
+                },
+                "message": "Testing public deployment setting.",
+                "tree": {
+                    "sha": "6a525d00bd9de63206c32c218f93586feab2ba79",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/6a525d00bd9de63206c32c218f93586feab2ba79"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/c7e06f29e349d1c933dda789a28ba44b835f7e61",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "91": {
+            "Changed home routing to non -exact.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:40:42Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:40:42Z"
+                },
+                "message": "Changed home routing to non -exact.",
+                "tree": {
+                    "sha": "0f9db9743ce0b96e59f333fde6597315d03ec6f9",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/0f9db9743ce0b96e59f333fde6597315d03ec6f9"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/4b454e6395838902fffd0ec77780bbbecd1c6e4a",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "92": {
+            "Added strict string evaluation.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:29:37Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:29:37Z"
+                },
+                "message": "Added strict string evaluation.",
+                "tree": {
+                    "sha": "1d291bd02401a25e6732cb6107a227fbb1651f30",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/1d291bd02401a25e6732cb6107a227fbb1651f30"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/2b7043dc1eb931bc573f1696922370876b62aab5",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "93": {
+            "Added blinking underscore to end of title text.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:22:48Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T13:22:48Z"
+                },
+                "message": "Added blinking underscore to end of title text.",
+                "tree": {
+                    "sha": "94c59e242ea46ebfdd651f10849cfe0296eb6981",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/94c59e242ea46ebfdd651f10849cfe0296eb6981"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/17d7ba0525d962cf9842cc338d716ef4cee2917a",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "94": {
+            "useRef used to check if title render has complete.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T11:56:56Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T11:56:56Z"
+                },
+                "message": "useRef used to check if title render has complete.",
+                "tree": {
+                    "sha": "4e2a292ef77bc13518efcf3e301fc64ec0cb6338",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/4e2a292ef77bc13518efcf3e301fc64ec0cb6338"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/784dbe415ed46456cc8fb9adcfafb9b57f1b35b5",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "95": {
+            "Began structuring homepage, and title customised.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:17:51Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:17:51Z"
+                },
+                "message": "Began structuring homepage, and title customised.",
+                "tree": {
+                    "sha": "c4640e7e74dafe41a9388786aa96c0a1e6a1a418",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/c4640e7e74dafe41a9388786aa96c0a1e6a1a418"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/a66852dc7e415e59d238188d3a4744225e99c4fe",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "96": {
+            "Applied custom font to homepage title.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:16:16Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:16:16Z"
+                },
+                "message": "Applied custom font to homepage title.",
+                "tree": {
+                    "sha": "170d01e022c3e5f9878e2af139166813092e78a1",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/170d01e022c3e5f9878e2af139166813092e78a1"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/d20596b7621cda9e327d11900398b02bc6b57527",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "97": {
+            "Made project preview container.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:15:58Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:15:58Z"
+                },
+                "message": "Made project preview container.",
+                "tree": {
+                    "sha": "772257478b172874c961c3a5e6e34d900000534c",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/772257478b172874c961c3a5e6e34d900000534c"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/116947c088d58bf0c149d54a70c4b33323cd4c08",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "98": {
+            "Added typewriter effect package.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:15:27Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-16T01:15:27Z"
+                },
+                "message": "Added typewriter effect package.",
+                "tree": {
+                    "sha": "2198f6f589888ec040acecea796a55c0e64b62c9",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/2198f6f589888ec040acecea796a55c0e64b62c9"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/b22e80787327182e744e48110645fd93de86db3b",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        },
+        "99": {
+            "Added project details data.": {
+                "author": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-15T20:59:26Z"
+                },
+                "committer": {
+                    "name": "ElliotRedhead",
+                    "email": "redacted@gmail.com",
+                    "date": "2020-08-15T20:59:26Z"
+                },
+                "message": "Added project details data.",
+                "tree": {
+                    "sha": "23c5c7483a1aec5553e696a2ffe689cae36c8981",
+                    "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/trees/23c5c7483a1aec5553e696a2ffe689cae36c8981"
+                },
+                "url": "https://api.github.com/repos/ElliotRedhead/ReactPortfolio/git/commits/700ecb5e9cd32e68a22d614144f8e57438de1b31",
+                "comment_count": 0,
+                "verification": {
+                    "verified": false,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "payload": null
+                }
+            }
+        }
+    }
 }

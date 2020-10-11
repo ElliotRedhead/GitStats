@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Test from "./components/fetch";
+import GitCommits from "./components/fetch";
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Switch>
         <Route path={"/"}>
-          <Test />
+          <GitCommits />
         </Route> 
       </Switch>
     </>

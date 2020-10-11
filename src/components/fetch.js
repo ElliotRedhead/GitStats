@@ -104,7 +104,8 @@ const Test = () => {
 
       <div>
         {fetchData ?
-          <select>
+          <select
+            onChange={event => console.log(event.target.value)}>
             {fetchData.map((data,index) => (
               <option key={index}>{data.name}</option>
             ))

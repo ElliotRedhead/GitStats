@@ -1,19 +1,14 @@
 import React, {useState} from "react";
 
-// Get list of repos for a user: https://api.github.com/users/ElliotRedhead/repos?per_page=100
-// Get list of branches for a repo: https://api.github.com/repos/ElliotRedhead/ReactPortfolio/commits?per_page=100
-
 const GitCommits = () => {
+
+  const [githubUserInput, setGithubUserInput] = useState("ElliotRedhead");
 
   const [repoOptions, setRepoOptions] = useState();
   const [selectedRepo, setSelectedRepo] = useState();
 
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();
-
-  const [githubUserInput, setGithubUserInput] = useState("ElliotRedhead");
-  // const [inputText, setInputText] = useState("http://localhost:8080/commits");
-
 
   const githubUserFetch = () => {
     fetch(`https://api.github.com/users/${githubUserInput}/repos`)
@@ -38,21 +33,21 @@ const GitCommits = () => {
   };
 
   const branchCommitFetch = () => {
-    branchOptions.map((data, index) => {
-      if (data.name == selectedBranch){
-        console.log(selectedBranch);
-        console.log(data.commit.sha);
+    branchOptions.map((data) => {
+      const latestCommitSha = data.name == selectedBranch && data.commit.sha;
+      if (latestCommitSha) {
+        fetch(`https://api.github.com/repos/${githubUserInput}/${selectedRepo}/commits?per_page=100&sha=${latestCommitSha}`)
+          .then(response => response.json())
+          .then(
+            (results) => {
+              let commitObjects = results;
+              const oldestCommitIndex = commitObjects.length - 1;
+              const oldestCommitSha = (commitObjects[oldestCommitIndex]).sha;
+            }
+          );
       }
     });
-    // fetch(`https://api.github.com/repos/${githubUserInput}/${selectedRepo}/commits?per_page=100&sha=4763742bd53530916f92efe164909aafe50f6624`)
-    //   .then(response => response.json())
-    //   .then(
-    //     (results) => {
-    //       console.log(results);
-    // setBranchOptions(results);
   };
-  //     );
-  // };
 
   return (
     <>

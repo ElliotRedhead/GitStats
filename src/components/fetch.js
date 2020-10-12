@@ -67,7 +67,7 @@ const GitCommits = () => {
                       // console.log(results);
                       if (oldestCommitShas[oldestCommitShas.length-1] !== oldestCommitShas[oldestCommitShas.length-2] || oldestCommitShas.length < 2) {
                         // What would happen if repo has one page of commits equal to exactly 100?
-                        // The first object of the appended objects list will equal that of the final object in the list at present.
+                        commitObjects.shift();
                         commitsList.push(...commitObjects);
                         nextPageCommitFetch();
                       }

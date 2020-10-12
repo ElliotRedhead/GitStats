@@ -15,7 +15,7 @@ const GitCommits = () => {
       .then(response => response.json())
       .then(
         (results) => {
-          console.log(results);
+          // console.log(results);
           setRepoOptions(results);
         }
       );
@@ -26,28 +26,62 @@ const GitCommits = () => {
       .then(response => response.json())
       .then(
         (results) => {
-          console.log(results);
+          // console.log(results);
           setBranchOptions(results);
         }
       );
   };
 
   const branchCommitFetch = () => {
-    branchOptions.map((data) => {
-      const latestCommitSha = data.name == selectedBranch && data.commit.sha;
+    branchOptions.forEach((data) => {
+      const latestCommitSha = data.name === selectedBranch && data.commit.sha;
       if (latestCommitSha) {
         fetch(`https://api.github.com/repos/${githubUserInput}/${selectedRepo}/commits?per_page=100&sha=${latestCommitSha}`)
           .then(response => response.json())
           .then(
             (results) => {
+              // console.log(results);
+
+
+              const commitsList = [];
+              const oldestCommitShas = [];
+              
               let commitObjects = results;
-              const oldestCommitIndex = commitObjects.length - 1;
-              const oldestCommitSha = (commitObjects[oldestCommitIndex]).sha;
-            }
-          );
+              commitsList.push(...commitObjects);
+              let oldestCommitIndex = commitObjects.length - 1;
+              let oldestCommitSha = (commitObjects[oldestCommitIndex]).sha;
+              oldestCommitShas.push(oldestCommitSha);
+              
+
+              const nextPageCommitFetch = () => {
+                oldestCommitSha = oldestCommitShas[oldestCommitShas.length-1];
+                
+                fetch(`https://api.github.com/repos/${githubUserInput}/${selectedRepo}/commits?per_page=100&sha=${oldestCommitSha}`)
+                  .then(response => response.json())
+                  .then(
+                    (results) => {
+                      commitObjects = results;
+                      oldestCommitIndex = commitObjects.length - 1;
+                      oldestCommitSha = (commitObjects[oldestCommitIndex]).sha;
+                      oldestCommitShas.push(oldestCommitSha);
+                      // console.log(results);
+                      if (oldestCommitShas[oldestCommitShas.length-1] !== oldestCommitShas[oldestCommitShas.length-2] || oldestCommitShas.length < 2) {
+                        // What would happen if repo has one page of commits equal to exactly 100?
+                        // The first object of the appended objects list will equal that of the final object in the list at present.
+                        commitsList.push(...commitObjects);
+                        nextPageCommitFetch();
+                      }
+                    }
+                  );
+              };
+
+              nextPageCommitFetch();
+              console.log(commitsList);
+
+
+            });
       }
-    });
-  };
+    });};
 
   return (
     <>

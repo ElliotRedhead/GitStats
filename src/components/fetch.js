@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Input, Button } from "@material-ui/core";
+import { Input, Button, Select, MenuItem } from "@material-ui/core";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -7,7 +7,7 @@ const GitCommits = () => {
   const [githubUserInput, setGithubUserInput] = useState("ElliotRedhead");
 
   const [repoOptions, setRepoOptions] = useState();
-  const [selectedRepo, setSelectedRepo] = useState();
+  const [selectedRepo, setSelectedRepo] = useState("");
 
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();
@@ -90,12 +90,13 @@ const GitCommits = () => {
       <div>
         <Input
           type="text"
+          color="primary"
+          label="Github Username"
           value={githubUserInput}
           onChange={event => setGithubUserInput(event.target.value)}
         />
         <Button variant="contained"
           color="primary"
-          className="fetchButton"
           onClick={githubUserFetch}>
         Fetch Repos for User
         </Button>
@@ -104,16 +105,17 @@ const GitCommits = () => {
       <div>
         {repoOptions ?
           <>
-            <select
-              onChange={event => setSelectedRepo(event.target.value)}>
-              <option default disabled>None</option>
+            <Select
+              onChange={event => setSelectedRepo(event.target.value)}
+              value={selectedRepo ? selectedRepo : "None"}>
+              <MenuItem value="None" disabled>None</MenuItem>
               {repoOptions.map((data,index) => (
-                <option key={index}>{data.name}</option>
+                <MenuItem key={index} value={data.name}>{data.name}</MenuItem>
               ))
               }
-            </select>
+            </Select>
             <Button variant="contained"
-              color="white"
+              color="primary"
               onClick={repoBranchFetch}>
               Fetch Branches for Selected Repo
             </Button>
@@ -125,14 +127,17 @@ const GitCommits = () => {
       <div>
         {branchOptions ?
           <>
-            <select
-              onChange={event => setSelectedBranch(event.target.value)}>
-              <option default disabled>None</option>
+            <Select
+              onChange={event => setSelectedBranch(event.target.value)}
+              value={selectedBranch ? selectedBranch : "None"}>
+              <MenuItem value="None" disabled>None</MenuItem>
               {branchOptions.map((data,index) => (
-                <option key={index}>{data.name}</option>
+                <MenuItem key={index}>{data.name}</MenuItem>
               ))}
-            </select>
-            <Button variant="contained" color="dark" onClick={branchCommitFetch}>
+            </Select>
+            <Button variant="contained"
+              color="primary"
+              onClick={branchCommitFetch}>
               Fetch Commits for Selected Branch
             </Button>
           </>

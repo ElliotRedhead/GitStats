@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import { Input, Button } from "@material-ui/core";
+import "../styles/main.scss";
 
 const GitCommits = () => {
 
@@ -86,14 +88,17 @@ const GitCommits = () => {
   return (
     <>
       <div>
-        <input
+        <Input
           type="text"
           value={githubUserInput}
           onChange={event => setGithubUserInput(event.target.value)}
         />
-        <button onClick={githubUserFetch}>
+        <Button variant="contained"
+          color="primary"
+          className="fetchButton"
+          onClick={githubUserFetch}>
         Fetch Repos for User
-        </button>
+        </Button>
       </div>
 
       <div>
@@ -107,9 +112,11 @@ const GitCommits = () => {
               ))
               }
             </select>
-            <button onClick={repoBranchFetch}>
+            <Button variant="contained"
+              color="white"
+              onClick={repoBranchFetch}>
               Fetch Branches for Selected Repo
-            </button>
+            </Button>
           </>
           : null
         }
@@ -125,9 +132,9 @@ const GitCommits = () => {
                 <option key={index}>{data.name}</option>
               ))}
             </select>
-            <button onClick={branchCommitFetch}>
+            <Button variant="contained" color="dark" onClick={branchCommitFetch}>
               Fetch Commits for Selected Branch
-            </button>
+            </Button>
           </>
           : null
         }

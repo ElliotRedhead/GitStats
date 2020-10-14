@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Input, Button, Select, MenuItem } from "@material-ui/core";
+import { FilledInput, Button, Select, MenuItem } from "@material-ui/core";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -88,10 +88,11 @@ const GitCommits = () => {
   return (
     <>
       <div>
-        <Input
+        <FilledInput
           type="text"
           color="primary"
           label="Github Username"
+          variant="filled"
           value={githubUserInput}
           onChange={event => setGithubUserInput(event.target.value)}
         />

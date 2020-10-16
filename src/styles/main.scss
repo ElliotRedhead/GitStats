@@ -1,3 +1,7 @@
 body {
-  background: #1a0e1a;
+  background: #f5f5f5;
+}
+
+.MuiGrid-item > *:first-child {
+  width: 100%;
 }

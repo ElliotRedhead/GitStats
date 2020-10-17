@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { FilledInput, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
+import { TextField, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -88,6 +88,7 @@ const GitCommits = () => {
   return (
     <>
       <Grid container
+        direction="column"
         justify="center"
         alignItems="center"
         style={{minHeight:"90vh",
@@ -116,9 +117,9 @@ const GitCommits = () => {
                 alignItems="center"
                 spacing={2}>
                 <Grid item xs={12} md={8}>
-                  <FilledInput
+                  <TextField
                     type="text"
-                    label="Username"
+                    label="GitHub Username"
                     variant="filled"
                     value={githubUserInput}
                     onChange={event => setGithubUserInput(event.target.value)}

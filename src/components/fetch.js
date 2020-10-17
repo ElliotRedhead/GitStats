@@ -92,12 +92,12 @@ const GitCommits = () => {
         alignItems="center"
         style={{minHeight:"90vh",
           display:"flex"}}>
-        <Grid item
+        <Grid item container
+          xs={12} md={10} lg={8}
           direction="column"
           alignItems="center"
           justify="center"
-          style={{minHeight:"90vh",
-            display:"flex"}}>
+          style={{minHeight:"90vh"}}>
           <Paper
             elevation={10}
             style={{
@@ -172,7 +172,7 @@ const GitCommits = () => {
                         value={selectedBranch ? selectedBranch : "None"}>
                         <MenuItem value="None" disabled>None</MenuItem>
                         {branchOptions.map((data,index) => (
-                          <MenuItem key={index}>{data.name}</MenuItem>
+                          <MenuItem key={index} value={data.name}>{data.name}</MenuItem>
                         ))}
                       </Select>
                     </Grid>

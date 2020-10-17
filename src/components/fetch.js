@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { FilledInput, Button, Select, MenuItem } from "@material-ui/core";
+import { FilledInput, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -87,65 +87,110 @@ const GitCommits = () => {
 
   return (
     <>
-      <div>
-        <FilledInput
-          type="text"
-          color="primary"
-          label="Github Username"
-          variant="filled"
-          value={githubUserInput}
-          onChange={event => setGithubUserInput(event.target.value)}
-        />
-        <Button variant="contained"
-          color="primary"
-          onClick={githubUserFetch}>
+      <Grid container
+        justify="center"
+        alignItems="center"
+        style={{minHeight:"90vh",
+          display:"flex"}}>
+        <Grid item
+          direction="column"
+          alignItems="center"
+          justify="center"
+          style={{minHeight:"90vh",
+            display:"flex"}}>
+          <Paper
+            elevation={10}
+            style={{
+              paddingTop: "6rem",
+              paddingBottom: "6rem",
+              minWidth:"60vw"}}
+          >
+            <Grid container
+              direction="column"
+              spacing={8}
+              alignItems="center"
+              justify="center"
+
+            >
+              <Grid item xs={12} sm={10} lg={8} container
+                alignItems="center"
+                spacing={2}>
+                <Grid item xs={12} md={8}>
+                  <FilledInput
+                    type="text"
+                    label="Username"
+                    variant="filled"
+                    value={githubUserInput}
+                    onChange={event => setGithubUserInput(event.target.value)}
+                  />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <Button variant="contained"
+                    color="primary"
+                    onClick={githubUserFetch}>
         Fetch Repos for User
-        </Button>
-      </div>
+                  </Button>
+                </Grid>
+              </Grid>
 
-      <div>
-        {repoOptions ?
-          <>
-            <Select
-              onChange={event => setSelectedRepo(event.target.value)}
-              value={selectedRepo ? selectedRepo : "None"}>
-              <MenuItem value="None" disabled>None</MenuItem>
-              {repoOptions.map((data,index) => (
-                <MenuItem key={index} value={data.name}>{data.name}</MenuItem>
-              ))
-              }
-            </Select>
-            <Button variant="contained"
-              color="primary"
-              onClick={repoBranchFetch}>
+              {repoOptions ?
+                <>
+                  <Grid item xs={12} sm={10} lg={8} container
+                    alignItems="center"
+                    spacing={2}>
+                    <Grid item xs={12} md={8}>
+                      <Select
+                        onChange={event => setSelectedRepo(event.target.value)}
+                        value={selectedRepo ? selectedRepo : "None"}>
+                        <MenuItem value="None" disabled>None</MenuItem>
+                        {repoOptions.map((data,index) => (
+                          <MenuItem key={index} value={data.name}>{data.name}</MenuItem>
+                        ))
+                        }
+                      </Select>
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                      <Button variant="contained"
+                        color="primary"
+                        onClick={repoBranchFetch}>
               Fetch Branches for Selected Repo
-            </Button>
-          </>
-          : null
-        }
-      </div>
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </>
+                : null
+              }
 
-      <div>
-        {branchOptions ?
-          <>
-            <Select
-              onChange={event => setSelectedBranch(event.target.value)}
-              value={selectedBranch ? selectedBranch : "None"}>
-              <MenuItem value="None" disabled>None</MenuItem>
-              {branchOptions.map((data,index) => (
-                <MenuItem key={index}>{data.name}</MenuItem>
-              ))}
-            </Select>
-            <Button variant="contained"
-              color="primary"
-              onClick={branchCommitFetch}>
+              {branchOptions ?
+                <>
+                  <Grid item xs={12} sm={10} lg={8} container
+                    alignItems="center"
+                    spacing={2}>
+                    <Grid item xs={12} md={8}>
+                      <Select
+                        onChange={event => setSelectedBranch(event.target.value)}
+                        value={selectedBranch ? selectedBranch : "None"}>
+                        <MenuItem value="None" disabled>None</MenuItem>
+                        {branchOptions.map((data,index) => (
+                          <MenuItem key={index}>{data.name}</MenuItem>
+                        ))}
+                      </Select>
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                      <Button variant="contained"
+                        color="primary"
+                        onClick={branchCommitFetch}>
               Fetch Commits for Selected Branch
-            </Button>
-          </>
-          : null
-        }
-      </div>
-
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </>
+                : null
+              }
+            </Grid>
+          </Paper>
+        </Grid>
+      </Grid>
     </>
   );
 

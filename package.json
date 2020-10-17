@@ -17,10 +17,11 @@
     },
     "scripts": {
         "start": "HOST=0.0.0.0 react-scripts start ",
-        "build": "react-scripts build",
-        "predeploy": "npm run build",
+        "build": "react-scripts build && cp build/index.html build/404.html",
+        "predeploy": "yarn build",
         "deploy": "gh-pages -d build",
-        "test": "react-scripts test",
+        "test": "CI=true react-scripts test --env=jsdom --passWithNoTests",
+        "test:coverage": "yarn test --coverage",
         "eject": "react-scripts eject",
         "dev-server": "json-server -p 8080 --watch db.json",
         "dev-start": "json-server -p 8080 --watch db.json & react-scripts start"

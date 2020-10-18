@@ -17,6 +17,10 @@ const GitCommits = () => {
 
   const githubUserFetch = () => {
     fetch(`https://api.github.com/users/${githubUserInput}/repos`)
+      .then(response => {
+        if (!response.ok) { console.log(response);}
+        return response;
+      })
       .then(response => response.json())
       .then(
         (results) => {

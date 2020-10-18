@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import { TextField, Button, Select, MenuItem, Grid, Paper, Slide } from "@material-ui/core";
+import { TextField, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
+import ScrollVh from "../utilities/ScrollVh";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -76,6 +77,7 @@ const GitCommits = () => {
                         nextPageCommitFetch();
                       } else {
                         setCommits(commitsList);
+                        ScrollVh();
                       }
                     }
                   );

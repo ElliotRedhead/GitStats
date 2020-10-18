@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,KACE,kBAAmB,CACnB,QAAS,CACV,2BAGC,UAAW","file":"main.177e9cf6.chunk.css","sourcesContent":["body {\n  background: #f5f5f5;\n  margin: 0;\n}\n\n.MuiGrid-item > *:first-child {\n  width: 100%;\n}\n"]}

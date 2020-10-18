@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { TextField, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
+import { TextField, Button, Select, MenuItem, Grid, Paper, Card } from "@material-ui/core";
 import ScrollVh from "../utilities/ScrollVh";
 import "../styles/main.scss";
 
@@ -206,6 +206,26 @@ const GitCommits = () => {
               <Paper
                 elevation={10}
                 style={{minHeight:"50vh"}}>
+                <Grid container
+                  direction="column"
+                  alignItems="center"
+                  justify="center">
+                  <Grid container item xs={10} md={8}>
+                    {repoCommits.map((data,index) => (
+                      <Card
+                        raised
+                        key={index}
+                        style={{
+                          marginTop:"2rem",
+                          padding:"2rem 2rem", 
+                          width:"100%"}}>
+                        {data.commit.message}
+                      </Card>
+                    ))
+                    }
+                  </Grid>
+                </Grid>
+
               </Paper>
             </Grid>
           </>

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { TextField, Button, Select, MenuItem, Grid, Paper } from "@material-ui/core";
+import { TextField, Button, Select, MenuItem, Grid, Paper, Slide } from "@material-ui/core";
 import "../styles/main.scss";
 
 const GitCommits = () => {
@@ -11,6 +11,8 @@ const GitCommits = () => {
 
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();
+
+  const [repoCommits, setCommits] = useState();
 
   const githubUserFetch = () => {
     fetch(`https://api.github.com/users/${githubUserInput}/repos`)
@@ -72,6 +74,8 @@ const GitCommits = () => {
                         commitObjects.shift();
                         commitsList.push(...commitObjects);
                         nextPageCommitFetch();
+                      } else {
+                        setCommits(commitsList);
                       }
                     }
                   );
@@ -89,16 +93,14 @@ const GitCommits = () => {
     <>
       <Grid container
         direction="column"
-        justify="center"
-        alignItems="center"
-        style={{minHeight:"90vh",
-          display:"flex"}}>
+        // justify="center"
+        alignItems="center">
         <Grid item container
           xs={12} md={10} lg={8}
           direction="column"
           alignItems="center"
           justify="center"
-          style={{minHeight:"90vh"}}>
+          style={{minHeight:"100vh"}}>
           <Paper
             elevation={10}
             style={{
@@ -191,7 +193,23 @@ const GitCommits = () => {
             </Grid>
           </Paper>
         </Grid>
+        {repoCommits ?
+          <>
+            <Grid item container
+              xs={12} md={10} lg={8}
+              direction="column"
+              alignItems="center"
+              justify="center"
+              style={{minHeight:"100vh"}}>
+              <Paper
+                elevation={10}
+                style={{minHeight:"50vh"}}>
+              </Paper>
+            </Grid>
+          </>
+          : null }
       </Grid>
+
     </>
   );
 

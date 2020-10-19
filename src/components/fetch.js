@@ -6,14 +6,23 @@ import "../styles/main.scss";
 const GitCommits = () => {
 
   const [githubUserInput, setGithubUserInput] = useState("ElliotRedhead");
-
+  
   const [repoOptions, setRepoOptions] = useState();
   const [selectedRepo, setSelectedRepo] = useState("");
-
+  
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();
-
+  
   const [repoCommits, setCommits] = useState();
+
+  const resetStates = (userReset=false, repoOptionsReset=false, repoSelectedReset=false, branchOptionsReset=false, branchSelectedReset=false, commitsReset=false ) => {
+    if(userReset){setGithubUserInput("ElliotRedhead");}
+    if(repoOptionsReset){setRepoOptions();}
+    if(repoSelectedReset){setSelectedRepo();}
+    if(branchOptionsReset){setBranchOptions();}
+    if(branchSelectedReset){setSelectedBranch();}
+    if(commitsReset){setCommits();}
+  };
 
   const githubUserFetch = () => {
     fetch(`https://api.github.com/users/${githubUserInput}/repos`)
@@ -93,7 +102,8 @@ const GitCommits = () => {
 
             });
       }
-    });};
+    });
+  };
 
   return (
     <>
@@ -130,7 +140,10 @@ const GitCommits = () => {
                     label="GitHub Username"
                     variant="filled"
                     value={githubUserInput}
-                    onChange={event => setGithubUserInput(event.target.value)}
+                    onChange={(event) => {
+                      setGithubUserInput(event.target.value);
+                      resetStates(false,true,true,true,true,true);
+                    } }
                   />
                 </Grid>
                 <Grid item xs={12} md={4}>
@@ -149,7 +162,9 @@ const GitCommits = () => {
                     spacing={2}>
                     <Grid item xs={12} md={8}>
                       <Select
-                        onChange={event => setSelectedRepo(event.target.value)}
+                        onChange={(event) => {
+                          setSelectedRepo(event.target.value);
+                          resetStates(false,false,false,true,true,true);}}
                         value={selectedRepo ? selectedRepo : "None"}>
                         <MenuItem value="None" disabled>None</MenuItem>
                         {repoOptions.map((data,index) => (
@@ -177,7 +192,9 @@ const GitCommits = () => {
                     spacing={2}>
                     <Grid item xs={12} md={8}>
                       <Select
-                        onChange={event => setSelectedBranch(event.target.value)}
+                        onChange={(event) => {
+                          setSelectedBranch(event.target.value);
+                          resetStates(false,false,false,false,false,true);}}
                         value={selectedBranch ? selectedBranch : "None"}>
                         <MenuItem value="None" disabled>None</MenuItem>
                         {branchOptions.map((data,index) => (

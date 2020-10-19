@@ -8,7 +8,7 @@ const GitCommits = () => {
   const [githubUserInput, setGithubUserInput] = useState("ElliotRedhead");
   
   const [repoOptions, setRepoOptions] = useState();
-  const [selectedRepo, setSelectedRepo] = useState("");
+  const [selectedRepo, setSelectedRepo] = useState();
   
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();

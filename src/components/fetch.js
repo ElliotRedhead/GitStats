@@ -109,7 +109,6 @@ const GitCommits = () => {
     <>
       <Grid container
         direction="column"
-        // justify="center"
         alignItems="center">
         <Grid item container
           xs={12} md={10} lg={8}
@@ -136,6 +135,8 @@ const GitCommits = () => {
                 spacing={2}>
                 <Grid item xs={12} md={8}>
                   <TextField
+                    required
+                    error={githubUserInput === ""}
                     type="text"
                     label="GitHub Username"
                     variant="filled"
@@ -147,11 +148,15 @@ const GitCommits = () => {
                   />
                 </Grid>
                 <Grid item xs={12} md={4}>
-                  <Button variant="contained"
-                    color="primary"
-                    onClick={githubUserFetch}>
+                  {githubUserInput ?
+                    <>
+                      <Button variant="contained"
+                        color="primary"
+                        onClick={githubUserFetch}>
         Fetch Repos for User
-                  </Button>
+                      </Button>
+                    </>
+                    : null}
                 </Grid>
               </Grid>
 

@@ -148,15 +148,13 @@ const GitCommits = () => {
                   />
                 </Grid>
                 <Grid item xs={12} md={4}>
-                  {githubUserInput ?
-                    <>
-                      <Button variant="contained"
-                        color="primary"
-                        onClick={githubUserFetch}>
+                  <Button
+                    disabled={!githubUserInput}
+                    variant="contained"
+                    color="primary"
+                    onClick={githubUserFetch}>
         Fetch Repos for User
-                      </Button>
-                    </>
-                    : null}
+                  </Button>
                 </Grid>
               </Grid>
 
@@ -179,7 +177,9 @@ const GitCommits = () => {
                       </Select>
                     </Grid>
                     <Grid item xs={12} md={4}>
-                      <Button variant="contained"
+                      <Button
+                        disabled={!selectedRepo}
+                        variant="contained"
                         color="primary"
                         onClick={repoBranchFetch}>
               Fetch Branches for Selected Repo
@@ -208,7 +208,9 @@ const GitCommits = () => {
                       </Select>
                     </Grid>
                     <Grid item xs={12} md={4}>
-                      <Button variant="contained"
+                      <Button
+                        disabled={!selectedBranch}
+                        variant="contained"
                         color="primary"
                         onClick={branchCommitFetch}>
               Fetch Commits for Selected Branch

@@ -12,28 +12,39 @@ const GitCommits = () => {
   
   const [branchOptions, setBranchOptions] = useState();
   const [selectedBranch, setSelectedBranch] = useState();
+
+  const [fetchErrorText, setFetchErrorText] = useState();
   
   const [repoCommits, setCommits] = useState();
 
-  const resetStates = (userReset=false, repoOptionsReset=false, repoSelectedReset=false, branchOptionsReset=false, branchSelectedReset=false, commitsReset=false ) => {
+  const resetStates = (userReset=false, repoOptionsReset=false, repoSelectedReset=false, branchOptionsReset=false, branchSelectedReset=false, fetchErrorReset=false, commitsReset=false ) => {
     if(userReset){setGithubUserInput("ElliotRedhead");}
     if(repoOptionsReset){setRepoOptions();}
     if(repoSelectedReset){setSelectedRepo();}
     if(branchOptionsReset){setBranchOptions();}
     if(branchSelectedReset){setSelectedBranch();}
+    if(fetchErrorReset){setFetchErrorText();}
     if(commitsReset){setCommits();}
+  };
+
+  const handleFetchResponse = (response) => {
+    if (response.status === 403){setFetchErrorText("Rate limit for GitHub API has been exceeded, please try again later.");
+    } else if (response.status === 404){setFetchErrorText("Selected credentials did not match an entry on GitHub.");
+    } else {setFetchErrorText("A connection error occurred, try again later.");}
   };
 
   const githubUserFetch = () => {
     fetch(`https://api.github.com/users/${githubUserInput}/repos`)
       .then(response => {
-        if (!response.ok) { console.log(response);}
-        return response;
+        if (!response.ok) {handleFetchResponse(response);
+        } else {
+          return response;
+          
+        }
       })
-      .then(response => response.json())
+      .then(response =>{ if(response){return response.json();}})
       .then(
         (results) => {
-          // console.log(results);
           setRepoOptions(results);
         }
       );
@@ -44,7 +55,6 @@ const GitCommits = () => {
       .then(response => response.json())
       .then(
         (results) => {
-          // console.log(results);
           setBranchOptions(results);
         }
       );
@@ -58,9 +68,6 @@ const GitCommits = () => {
           .then(response => response.json())
           .then(
             (results) => {
-              // console.log(results);
-
-
               const commitsList = [];
               const oldestCommitShas = [];
               
@@ -95,11 +102,7 @@ const GitCommits = () => {
                     }
                   );
               };
-
               nextPageCommitFetch();
-              console.log(commitsList);
-
-
             });
       }
     });
@@ -143,7 +146,7 @@ const GitCommits = () => {
                     value={githubUserInput}
                     onChange={(event) => {
                       setGithubUserInput(event.target.value);
-                      resetStates(false,true,true,true,true,true);
+                      resetStates(false,true,true,true,true,true,true);
                     } }
                   />
                 </Grid>
@@ -167,13 +170,13 @@ const GitCommits = () => {
                       <Select
                         onChange={(event) => {
                           setSelectedRepo(event.target.value);
-                          resetStates(false,false,false,true,true,true);}}
+                          resetStates(false,false,false,true,true,true,true);}}
                         value={selectedRepo ? selectedRepo : "None"}>
                         <MenuItem value="None" disabled>None</MenuItem>
                         {repoOptions.map((data,index) => (
                           <MenuItem key={index} value={data.name}>{data.name}</MenuItem>
-                        ))
-                        }
+                        ))}
+                    
                       </Select>
                     </Grid>
                     <Grid item xs={12} md={4}>
@@ -199,7 +202,7 @@ const GitCommits = () => {
                       <Select
                         onChange={(event) => {
                           setSelectedBranch(event.target.value);
-                          resetStates(false,false,false,false,false,true);}}
+                          resetStates(false,false,false,false,false,true,true);}}
                         value={selectedBranch ? selectedBranch : "None"}>
                         <MenuItem value="None" disabled>None</MenuItem>
                         {branchOptions.map((data,index) => (
@@ -218,6 +221,14 @@ const GitCommits = () => {
                     </Grid>
                   </Grid>
                 </>
+                : null
+              }
+              {fetchErrorText ?
+                <Grid item xs={12}>
+                  <p style={{color:"red"}}>
+                    {fetchErrorText}
+                  </p>
+                </Grid>
                 : null
               }
             </Grid>
@@ -253,7 +264,6 @@ const GitCommits = () => {
                     }
                   </Grid>
                 </Grid>
-
               </Paper>
             </Grid>
           </>

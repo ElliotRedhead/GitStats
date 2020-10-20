@@ -130,9 +130,10 @@ const GitCommits = () => {
               direction="column"
               spacing={8}
               alignItems="center"
-              justify="center"
-
             >
+              <Grid item xs={12}>
+                <h1 style={{textAlign:"center"}}>GitStats - Commit Messages</h1>
+              </Grid>
               <Grid item xs={12} sm={10} lg={8} container
                 alignItems="center"
                 spacing={2}>
@@ -250,6 +251,7 @@ const GitCommits = () => {
                   alignItems="center"
                   justify="center">
                   <Grid container item xs={10} md={8}>
+                    <h2>Total number of commits: {repoCommits.length}</h2>
                     {repoCommits.map((data,index) => (
                       <Card
                         raised

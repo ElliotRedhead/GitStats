@@ -257,7 +257,8 @@ const GitCommits = () => {
 												raised
 												key={index}
 												style={{
-													marginTop:"2rem",
+													marginTop:"1rem",
+													marginBottom:"1rem",
 													padding:"2rem 2rem", 
 													width:"100%"}}>
 												{data.commit.message}

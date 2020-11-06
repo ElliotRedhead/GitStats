@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GitStats/static/css/main.a351540c.chunk.css",
-    "main.js": "/GitStats/static/js/main.d4b32859.chunk.js",
-    "main.js.map": "/GitStats/static/js/main.d4b32859.chunk.js.map",
+    "main.js": "/GitStats/static/js/main.9c981457.chunk.js",
+    "main.js.map": "/GitStats/static/js/main.9c981457.chunk.js.map",
     "runtime-main.js": "/GitStats/static/js/runtime-main.87dc1a58.js",
     "runtime-main.js.map": "/GitStats/static/js/runtime-main.87dc1a58.js.map",
     "static/js/2.8a908e3f.chunk.js": "/GitStats/static/js/2.8a908e3f.chunk.js",
     "static/js/2.8a908e3f.chunk.js.map": "/GitStats/static/js/2.8a908e3f.chunk.js.map",
     "index.html": "/GitStats/index.html",
-    "precache-manifest.a1d431920fdf507365e8e7c774d31943.js": "/GitStats/precache-manifest.a1d431920fdf507365e8e7c774d31943.js",
+    "precache-manifest.894aaf913f246c5f809d98b8b6ee8372.js": "/GitStats/precache-manifest.894aaf913f246c5f809d98b8b6ee8372.js",
     "service-worker.js": "/GitStats/service-worker.js",
     "static/css/main.a351540c.chunk.css.map": "/GitStats/static/css/main.a351540c.chunk.css.map",
     "static/js/2.8a908e3f.chunk.js.LICENSE.txt": "/GitStats/static/js/2.8a908e3f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.87dc1a58.js",
     "static/js/2.8a908e3f.chunk.js",
     "static/css/main.a351540c.chunk.css",
-    "static/js/main.d4b32859.chunk.js"
+    "static/js/main.9c981457.chunk.js"
   ]
 }
